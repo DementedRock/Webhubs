@@ -1,0 +1,63 @@
+.betterfont{
+	font-family: 'Permanent Marker', cursive;
+    font-size: 750%;
+    color: white;
+}
+
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
+.betterfonthref{
+	font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+    color: white;
+}
+.center {
+	text-align: center;
+    line-height: 500px;
+}
+.centerhref {
+	text-align: center;
+}
+body {
+    background-image: url('https://img.4plebs.org/boards/x/image/1472/67/1472678688352.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+}
+::selection {
+    background-color: #ff5212;
+    color: #FFFFFF;
+}
+.solid {
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 1);
+    background-color: rgba(24, 24, 24, 0.5); 
+	border-radius: 5px;
+}
+:link    {
+  text-decoration:  none;
+  } 
+a:hover   {
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(5, 5, 5, 0.8); 
+	border-radius: 5px;
+    color: transparent;
+	background-image: url(https://fightersweep.com/wp-content/themes/figthersweep/images/home-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+	} 
